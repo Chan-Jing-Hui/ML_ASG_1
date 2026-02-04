@@ -4,6 +4,8 @@ Located in .github/workflows folder. On push or pull request, run the quality_co
 Located in tests folder. Checks that the new model's rmse (Root Mean Squared Error) is less than 90% of the baseline model's, otherwise, error code is produced and check fails
 ### test_data.csv
 Located in data folder. Contains the testing data used to evaluate models  
+### ML Assignment Notebook.ipynb
+Located in src folder. Jupyter notebook file used for the processing of data, training and logging of runs and models to MLflow, and analysis of data drift.
 ### model.pkl
 Final version of registered model, determined to be the most suitable model  
 ### requirements.txt
