@@ -1,13 +1,13 @@
 # This workflow will install Python dependencies, and test the model with a single version of Python
 
-name: Python application
+name: Model Quality Gate
 
 on:
   push:
   pull_request:
 
 jobs:
-  preprocess:
+  quality_control:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
