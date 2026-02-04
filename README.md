@@ -9,7 +9,7 @@ Located in src folder. Jupyter notebook file used for the processing of data, tr
 ### model.pkl
 Final version of registered model, determined to be the most suitable model  
 ### requirements.txt
-Contains the libraries needed to run the test_model.py script
+Contains the libraries and their versions needed to run the test_model.py script
 
 The current model in model.pkl is checked whenever a push or pull request is made. For new models to be checked, they must be exported and saved in the exact same format 'model.pkl'  
 To run test_model.py locally, ensure that test_model.py, data/test_data.csv, and model.pkl are in the same directory
